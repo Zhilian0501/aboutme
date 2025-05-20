@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的服務｜治閎的自介網站</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">CHIHONG</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我</a></li>
+        <li><a href="services.html" class="active">服務</a></li>
+        <li><a href="contact.html">聯絡</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="particles-js"></div>
+
+  <main class="content">
+    <h1 class="fade-in">我提供的服務</h1>
+    <div class="services-list">
+      <div class="service-card fade-in-delay">
+        <h2>網站開發</h2>
+        <p>客製化設計，打造兼具美感與效能的網站</p>
+      </div>
+      <div class="service-card fade-in-delay">
+        <h2>音樂剪輯製作</h2>
+        <p>從 Lo-fi 到 Podcast，我為你混音並修剪</p>
+      </div>
+      <div class="service-card fade-in-delay">
+        <h2>視覺設計</h2>
+        <p>品牌形象、名片、影片轉場，風格有溫度</p>
+      </div>
+    </div>
+  </main>
+
+  <audio id="bg-music" src="assets/music/lofi.mp3" loop autoplay></audio>
+  <button id="music-toggle">靜音</button>
+
+  <footer>
+    <p>&copy; 2025 治閎 | 專業服務</p>
+    <p id="view-count">瀏覽次數載入中...</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

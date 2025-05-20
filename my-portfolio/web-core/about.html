@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>關於我｜治閎的自介網站</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">CHIHONG</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html" class="active">關於我</a></li>
+        <li><a href="services.html">服務</a></li>
+        <li><a href="contact.html">聯絡</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="particles-js"></div>
+
+  <main class="content">
+    <h1 class="fade-in">關於我</h1>
+    <p class="fade-in-delay">
+      嗨，我是治閎，一位熱愛音樂與科技的創作者。<br />
+      喜歡用程式與旋律講故事，用設計記錄生活。
+    </p>
+    <ul>
+      <li>技能：HTML / CSS / JavaScript / 音樂製作</li>
+      <li>興趣：Lo-fi、空拍、網頁開發</li>
+      <li>目前目標：打造結合生活與創意的科技平台</li>
+    </ul>
+  </main>
+
+  <audio id="bg-music" src="assets/music/lofi.mp3" loop autoplay></audio>
+  <button id="music-toggle">靜音</button>
+
+  <footer>
+    <p>&copy; 2025 治閎 | 個人介紹頁</p>
+    <p id="view-count">瀏覽次數載入中...</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

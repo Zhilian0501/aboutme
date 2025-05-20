@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>聯絡我｜治閎的自介網站</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">CHIHONG</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我</a></li>
+        <li><a href="services.html">服務</a></li>
+        <li><a href="contact.html" class="active">聯絡</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="particles-js"></div>
+
+  <main class="content">
+    <h1 class="fade-in">聯絡我</h1>
+    <p class="fade-in-delay">歡迎來信或透過社群平台聯繫，我會盡快回覆你。</p>
+
+    <form class="contact-form fade-in-delay">
+      <label>姓名</label>
+      <input type="text" name="name" required />
+
+      <label>Email</label>
+      <input type="email" name="email" required />
+
+      <label>訊息內容</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <button type="submit">送出</button>
+    </form>
+
+    <div class="social-links">
+      <a href="#">Instagram</a> |
+      <a href="#">YouTube</a> |
+      <a href="#">Discord</a>
+    </div>
+  </main>
+
+  <audio id="bg-music" src="assets/music/lofi.mp3" loop autoplay></audio>
+  <button id="music-toggle">靜音</button>
+
+  <footer>
+    <p>&copy; 2025 治閎 | 聯絡我</p>
+    <p id="view-count">瀏覽次數載入中...</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首頁｜治閎的自介網站</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">CHIHONG</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">首頁</a></li>
+        <li><a href="about.html">關於我</a></li>
+        <li><a href="services.html">服務</a></li>
+        <li><a href="contact.html">聯絡</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 粒子背景 -->
+  <div id="particles-js"></div>
+
+  <!-- Hero 區 -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Hi，我是治閎</h1>
+      <p class="fade-in-delay">科技 × 音樂 × 生活，用節奏打造自我</p>
+      <a href="about.html" class="btn">了解更多</a>
+    </div>
+  </section>
+
+  <!-- 背景音樂 -->
+  <audio id="bg-music" src="assets/music/lofi.mp3" loop autoplay></audio>
+  <button id="music-toggle">靜音</button>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>&copy; 2025 治閎 | 個人創作與科技網站</p>
+    <p id="view-count">瀏覽次數載入中...</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
